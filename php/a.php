@@ -14,6 +14,7 @@ class Vegetable {
 
    function is_edible()
    {
+       $this->edible = true;
        return $this->edible;
    }
 
